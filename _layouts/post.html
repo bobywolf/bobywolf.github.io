@@ -45,6 +45,9 @@
           <div id="disqus_thread"></div><!-- /#disqus_thread -->
           {% include disqus-comments.html %}
         {% endif %}
+        {% if (site.owner.duoshuo-shortname and page.comments) or site.comments %}
+          {% include duoshuo-comments.html %}
+        {% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">

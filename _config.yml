@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
-locale: en_US
-description: Describe your website here.
+title: 码工的反转世界
+locale: zh_CN
+description: 生活不易，干了码工就仿佛进入了阿鼻地狱，诸君退散，自求多福吧。
 logo: site-logo.png
 search: true
 url: http://localhost:4000
@@ -33,13 +33,14 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Boby Wolf
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: bobywolf@gmail.com
   disqus-shortname:
+  duoshuo-shortname: bobywolf
   twitter: #username
   facebook: #username
-  github: #username
+  github: bobywolf #username
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
@@ -54,3 +55,5 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
+comments: true
